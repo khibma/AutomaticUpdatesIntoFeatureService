@@ -11,10 +11,10 @@ See more information on the [associated ArcGIS Blog post](http://blogs.esri.com/
 2. Save these files to your local working directory
 3. Setup a feature service with your ArcGIS.com account. The instructions [on this blog post](http://blogs.esri.com/esri/arcgis/2014/09/22/how-to-create-a-hosted-feature-service/) explain the different ways. The required feature service for this example is simple, as such the first option of creating a service from ArcGIS Online would be straight forward. 
   1. From **My Content**, click **Create Layer**.
-  2. Select from a URL to a feature layer
+  2. Select **from a URL to a feature layer**
   3. Enter:  http://services1.arcgis.com/hLJbHVT9ZrDIzK0I/arcgis/rest/services/issSchema/FeatureServer/0
-  4. Select next, accept the default extent and enter some useful tags and summary information on the final page. Remember the title, you'll need to enter this information into the Python script.
-  5. Click done.
+  4. Select **next**, accept the default extent and enter some useful **tags** and **summary** information on the final page. Remember the **title**, you'll need to enter this information into the Python script.
+  5. Click **done**.
   6. Set sharing options for the service. You **do not** need to enable editing.
 4. Edit the Python script you saved previously and update the variables at the top of the script. 
 5. Run the script. As-is, it'll update the point every 5 minutes. Modify this value to your needs.
